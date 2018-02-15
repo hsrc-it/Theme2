@@ -122,7 +122,7 @@
 		  $('#map-canvas2').css({'display':'block'});
 		  var script = document.createElement('script');
 		  script.type = 'text/javascript';
-		  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+		  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCv5pL8FG0RY8ptDgWHu_LSV36ekGS_i5A&callback=initMap"' +
 			  'callback=initialize';
 		  document.body.appendChild(script);
 		  

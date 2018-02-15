@@ -1,0 +1,46 @@
+=================Change Size of slider==================================
+file path: \Documents\Demos\Theme\css\fullscreen.css
+line: 37 (fullscreen-container)
+
+=================Change position of search in home page============
+file path: \Documents\Demos\Theme\assets\css\custom
+line: 2251 (cstyle04)
+
+=================Change size of Navbare and color in home page============
+file path: \Documents\Demos\Theme\assets\css\custom
+line: 58,59 
+.mtnav{position:relative; top:20px;}
+.navbar-wrapper2{min-height:110px; background:#7ca9ab; border-bottom:0px solid #cccccc; box-shadow: 0 0 5px rgba(0, 0, 0, 0.13); padding-bottom:0px;}
+
+=================Change slider text color ============
+file path: \Documents\Demos\Theme\dist\css\bootstrab
+line: 307 
+color: #ffffff;
+
+=================Change color of search button in home page============
+file path: \Documents\Demos\Theme\assets\css\custom
+line: 406 -412
+
+=================Change searchbg2 div ============
+file path: \Documents\Demos\Theme\assets\css\custom
+line: 375
+
+=================Change ============
+file path: 
+line: 
+
+=================Change ============
+file path: 
+line: 
+
+=================Change ============
+file path: 
+line: 
+
+=================Change ============
+file path: 
+line: 
+
+=================Change ============
+file path: 
+line: 
