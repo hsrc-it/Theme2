@@ -12,8 +12,8 @@ jQuery(function() {
 
 jQuery(function($) {
 	$('.countprice').countTo({
-		from: 5,
-		to: 36,
+		from: 100,
+		to: 400,
 		speed: 1000,
 		refreshInterval: 50,
 		onComplete: function(value) {
@@ -21,9 +21,9 @@ jQuery(function($) {
 		}
 	});
 	$('.counthotel').countTo({
-		from: 1,
-		to: 53,
-		speed: 2000,
+		from: 100,
+		to: 300,
+		speed: 1000,
 		refreshInterval: 50,
 		onComplete: function(value) {
 			console.debug(this);

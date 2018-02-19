@@ -68,8 +68,8 @@
 		];
 
 		
-		var myLatlng = new google.maps.LatLng(36.5068, -4.8825);
-
+		var myLatlng = new google.maps.LatLng(24.839911, 46.721456);
+		var MapCenter = new google.maps.LatLng(24.853227, 46.655882);
 
 	  // Create a new StyledMapType object, passing it the array of styles,
 	  // as well as the name to be displayed on the map type control.
@@ -80,18 +80,18 @@
 	  // Create a map object, and include the MapTypeId to add
 	  // to the map type control.
 	  var mapOptions = {
-		zoom: 15,
-		center: myLatlng,
+		zoom: 14,
+		center: MapCenter,
 		mapTypeControl: true,
 		mapTypeControlOptions: {
 		  mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style'],
 		  
 			style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-			position: google.maps.ControlPosition.RIGHT_TOP
+			position: google.maps.ControlPosition.RIGHT_CENTER
 		},
 		panControl: true,
 		panControlOptions: {
-			position: google.maps.ControlPosition.RIGHT_CENTER
+			position: google.maps.ControlPosition.CENTER
 		},
 		zoomControl: true,
 		zoomControlOptions: {
@@ -122,7 +122,7 @@
 		  $('#map-canvas2').css({'display':'block'});
 		  var script = document.createElement('script');
 		  script.type = 'text/javascript';
-		  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCv5pL8FG0RY8ptDgWHu_LSV36ekGS_i5A&callback=initMap"' +
+		  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
 			  'callback=initialize';
 		  document.body.appendChild(script);
 		  
